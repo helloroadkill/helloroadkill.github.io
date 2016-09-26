@@ -1,7 +1,7 @@
 var pageLoadWait = 20;
 var timeGap = 300;
 
-var message = 'Hi. ';
+var message = 'Hi. have fun!';
 var extraTimeToAdd = message.length * 100 + pageLoadWait;
 
 var displaymessage = function() {
@@ -31,14 +31,13 @@ var stringFactoryForIndividLetterDisplay = function(string, timeGap) {
 
  var resultsArray = [];
  for (var ii = 0 ; ii < string.length; ii++) {
+  extraTimeGap = 0;
 
- 	if(string[ii] === " ") {
- 		extraTimeGap = 50;
+ 	if(ii != 0 && string[ii-1] === " " && string[ii] === "h" ) {
+ 		extraTimeGap = 900;
  	}
 
  	primaryTimeGap = Math.round(defaultTimeGap/2 + (Math.random()*(defaultTimeGap - defaultTimeGap/2)));
-
- 	console.log("primaryTimeGap", primaryTimeGap);
 
  	timeToWait = primaryTimeGap + extraTimeGap + 1;
   var letterObj = {
