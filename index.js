@@ -1,7 +1,7 @@
 var pageLoadWait = 20;
 var timeGap = 300;
 
-var message = 'Hi. have fun!';
+var message = 'Play more, YOLO.';
 var extraTimeToAdd = message.length * 100 + pageLoadWait;
 
 var displaymessage = function() {
