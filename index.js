@@ -33,7 +33,7 @@ var stringFactoryForIndividLetterDisplay = function(string, timeGap) {
  for (var ii = 0 ; ii < string.length; ii++) {
   extraTimeGap = 0;
 
- 	if(ii != 0 && string[ii-1] === " " && string[ii] === "h" ) {
+ 	if(ii != 0 && string[ii-1] === " " && string[ii] === "p" ) {
  		extraTimeGap = 900;
  	}
 
