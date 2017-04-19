@@ -6,7 +6,7 @@
 .inner-container {
 	font-family: "bitwonder", Tahoma;
 	height: 50px;
-	font-size: 50px;
+	font-size: 30px;
 	text-align: center;
 	position:absolute; /*it can be fixed too*/
 	left:0; right:0;

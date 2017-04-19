@@ -1,7 +1,7 @@
 var pageLoadWait = 20;
 var timeGap = 300;
 
-var message = 'YOLO, play more.';
+var message = 'play. respawn. repeat.';
 var extraTimeToAdd = message.length * 100 + pageLoadWait;
 
 var displaymessage = function() {
