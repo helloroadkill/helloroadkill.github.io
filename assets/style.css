@@ -4,15 +4,15 @@
 }
 
 @font-face {
-  font-family: "editundo";
-  src: url("editundo.ttf");
+  font-family: "komikax";
+  src: url("komikax.ttf");
 }
 body {
-	font-family: "editundo", Tahoma;
+	font-family: "komikax", Tahoma;
 }
 .inner-container {
 	height: 8vw;
-	font-size: 8vw;
+	font-size: 4vw;
 	text-align: center;
 	/*position:absolute; */
   /*it can be fixed too*/
@@ -43,11 +43,10 @@ body {
 }
 
 .html-videoplayer {
-  margin-top:2vh;
+  margin-top:5vh;
   display:flex;
   justify-content: center;
 }
-
 .text-wrapper {
   margin-top:2vh;
 /*  display:flex;
@@ -58,16 +57,27 @@ body {
 .bigger {
   font-size:1.8rem;
 }
+.smaller {
+  font-size:1.2rem;
+}
 .text-wrapper a{
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .text-wrapper p{
-  line-height: 20%;
+  line-height: 40%;
+}
+
+.text-wrapper-special p {
+  line-height:140%;
 }
 
 .purple-text {
   color: #E24E42;
+}
+
+.grey-text {
+  color:#4d4d4d;
 }
 
 .blue-text {
